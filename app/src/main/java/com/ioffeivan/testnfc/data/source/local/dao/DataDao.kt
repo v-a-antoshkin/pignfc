@@ -9,7 +9,7 @@ import com.ioffeivan.testnfc.data.source.local.model.DataEntity
 @Dao
 interface DataDao {
 
-    @Query("SELECT * FROM data WHERE valueKey = :key")
+    @Query("SELECT * FROM data WHERE value_key = :key")
     suspend fun getDataByKey(key: String): DataEntity
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)

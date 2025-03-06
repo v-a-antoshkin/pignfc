@@ -17,11 +17,14 @@ class StorageModule {
     @Singleton
     @Provides
     fun provideAppDatabase(@ApplicationContext context: Context): AppDatabase {
-        return Room.databaseBuilder(
-            context = context,
-            klass = AppDatabase::class.java,
-            name = "data_database.db"
-        ).fallbackToDestructiveMigration()
+        return Room
+            .databaseBuilder(
+                context = context,
+                klass = AppDatabase::class.java,
+                name = "data_database.db"
+            )
+            .createFromAsset("mydb.db")
+            .fallbackToDestructiveMigration()
             .build()
     }
 }
