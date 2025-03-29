@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">TestNFC</string>
-    <string name="servicedescription">service</string>
-    <string name="aiddescription">aid</string>
+
+    <string name="percent">%1$d%%</string>
+
+    <string name="attach_nfc_tag_to_device">Приложите NFC-метку к устройству</string>
 </resources>

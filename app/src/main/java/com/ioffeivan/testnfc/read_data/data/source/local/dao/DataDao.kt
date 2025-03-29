@@ -1,10 +1,10 @@
-package com.ioffeivan.testnfc.data.source.local.dao
+package com.ioffeivan.testnfc.read_data.data.source.local.dao
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.ioffeivan.testnfc.data.source.local.model.DataEntity
+import com.ioffeivan.testnfc.read_data.data.source.local.model.DataEntity
 
 @Dao
 interface DataDao {

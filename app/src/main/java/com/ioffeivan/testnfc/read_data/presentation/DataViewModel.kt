@@ -1,12 +1,12 @@
-package com.ioffeivan.testnfc.presentation
+package com.ioffeivan.testnfc.read_data.presentation
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.ioffeivan.testnfc.domain.model.Data
-import com.ioffeivan.testnfc.domain.usecase.AddDataUseCase
-import com.ioffeivan.testnfc.domain.usecase.GetDataByKeyUseCase
+import com.ioffeivan.testnfc.read_data.domain.model.Data
+import com.ioffeivan.testnfc.read_data.domain.usecase.AddDataUseCase
+import com.ioffeivan.testnfc.read_data.domain.usecase.GetDataByKeyUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

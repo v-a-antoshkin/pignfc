@@ -1,4 +1,4 @@
-package com.ioffeivan.testnfc.domain.model
+package com.ioffeivan.testnfc.read_data.domain.model
 
 data class Data(
     val key: String,

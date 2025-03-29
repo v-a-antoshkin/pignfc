@@ -1,7 +1,7 @@
-package com.ioffeivan.testnfc.data.mapper
+package com.ioffeivan.testnfc.read_data.data.mapper
 
-import com.ioffeivan.testnfc.data.source.local.model.DataEntity
-import com.ioffeivan.testnfc.domain.model.Data
+import com.ioffeivan.testnfc.read_data.data.source.local.model.DataEntity
+import com.ioffeivan.testnfc.read_data.domain.model.Data
 
 fun DataEntity.toData() =
     Data(

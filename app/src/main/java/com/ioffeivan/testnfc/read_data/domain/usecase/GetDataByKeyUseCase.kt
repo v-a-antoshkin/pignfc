@@ -1,6 +1,6 @@
-package com.ioffeivan.testnfc.domain.usecase
+package com.ioffeivan.testnfc.read_data.domain.usecase
 
-import com.ioffeivan.testnfc.domain.repository.DataRepository
+import com.ioffeivan.testnfc.read_data.domain.repository.DataRepository
 import javax.inject.Inject
 
 class GetDataByKeyUseCase @Inject constructor(

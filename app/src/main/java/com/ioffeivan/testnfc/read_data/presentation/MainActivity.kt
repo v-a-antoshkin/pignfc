@@ -1,4 +1,4 @@
-package com.ioffeivan.testnfc.presentation
+package com.ioffeivan.testnfc.read_data.presentation
 
 import android.app.PendingIntent
 import android.content.Intent

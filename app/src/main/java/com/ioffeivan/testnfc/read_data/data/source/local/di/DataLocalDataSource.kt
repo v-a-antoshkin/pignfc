@@ -1,9 +1,9 @@
-package com.ioffeivan.testnfc.data.source.local.di
+package com.ioffeivan.testnfc.read_data.data.source.local.di
 
 import com.ioffeivan.testnfc.core.data.source.local.db.AppDatabase
-import com.ioffeivan.testnfc.data.repository.DataRepositoryImpl
-import com.ioffeivan.testnfc.data.source.local.dao.DataDao
-import com.ioffeivan.testnfc.domain.repository.DataRepository
+import com.ioffeivan.testnfc.read_data.data.repository.DataRepositoryImpl
+import com.ioffeivan.testnfc.read_data.data.source.local.dao.DataDao
+import com.ioffeivan.testnfc.read_data.domain.repository.DataRepository
 import dagger.Binds
 import dagger.Module
 import dagger.Provides

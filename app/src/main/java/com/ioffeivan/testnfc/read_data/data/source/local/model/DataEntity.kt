@@ -1,4 +1,4 @@
-package com.ioffeivan.testnfc.data.source.local.model
+package com.ioffeivan.testnfc.read_data.data.source.local.model
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
